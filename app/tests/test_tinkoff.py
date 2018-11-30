@@ -1,6 +1,6 @@
 import pytest
 
-from tinkoff import calculate_cashback_to_card
+from app.tinkoff import calculate_cashback_to_card
 
 @pytest.mark.parametrize('ordinary_amount, cashback_amount, special_offer_amount, expected', [
     (1000, 700, 500, 195),

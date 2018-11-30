@@ -1,6 +1,6 @@
 import pytest
 
-from deposit import calculate_deposite
+from app.deposit import calculate_deposite
 
 @pytest.mark.parametrize('deposit_amount, period_of_deposit, interest_rate, expected', [
     (100_000, 2, 0.07, 114000),
